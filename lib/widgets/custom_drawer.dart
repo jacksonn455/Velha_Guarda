@@ -14,7 +14,7 @@ class CustomDrawer extends StatelessWidget {
     Widget _buildDrawerBack() => Container(
       decoration: BoxDecoration(
           gradient: LinearGradient(colors: [
-            Colors.orangeAccent,
+            Colors.orange,
             Colors.white,
             Colors.white,
             Colors.white,
@@ -26,21 +26,22 @@ class CustomDrawer extends StatelessWidget {
         children: <Widget>[
           _buildDrawerBack(),
           ListView(
-            padding: EdgeInsets.only(left: 32.0, top: 16.0),
+            padding: EdgeInsets.only(left: 32.0, top: 20.0),
             children: <Widget>[
               Container(
-                margin: EdgeInsets.only(bottom: 8.0),
-                padding: EdgeInsets.fromLTRB(0.0, 16.0, 16.0, 8.0),
-                height: 170.0,
+                padding: EdgeInsets.fromLTRB(0.0, 16.0, 16.0, 20.0),
+                height: 190.0,
                 child: Stack(
                   children: <Widget>[
                     Positioned(
-                      top: 8.0,
+                      top: 15.0,
                       left: 0.0,
                       child: Text(
-                        "Velha\nGuarda",
+                        "Velha \nGuarda",
                         style: TextStyle(
-                            fontSize: 34.0, fontWeight: FontWeight.bold, color: Colors.white),
+                            fontSize: 30.0,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
                       ),
                     ),
                     Positioned(
@@ -89,8 +90,8 @@ class CustomDrawer extends StatelessWidget {
               ),
               Divider(),
               DrawerTile(Icons.home, "Início", pageController, 0),
-              DrawerTile(Icons.list, "Produtos", pageController, 1),
-              DrawerTile(Icons.location_on, "Sobre", pageController, 2),
+              DrawerTile(Icons.settings, "Produtos", pageController, 1),
+              DrawerTile(Icons.new_releases, "Sobre", pageController, 2),
             ],
           )
         ],

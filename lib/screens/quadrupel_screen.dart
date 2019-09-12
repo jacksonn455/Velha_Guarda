@@ -24,8 +24,7 @@ class QuadrupelScreenState extends State<QuadrupelScreen> {
         leading: new IconButton(
             icon: new Icon(Icons.arrow_back),
             onPressed: () {
-              Navigator.of(context)
-                  .pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen()));
+              Navigator.of(context).pop();
             }
         ),
       ),
@@ -35,7 +34,7 @@ class QuadrupelScreenState extends State<QuadrupelScreen> {
             aspectRatio: 0.9,
             child: Carousel(
               images: [
-                ExactAssetImage("images/9.jpg"),
+                ExactAssetImage("images/12.jpg"),
                 ExactAssetImage("images/strong2.jpg"),
                 ExactAssetImage("images/strong3.png"),
               ],

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:velha_guarda/screens/home_screen.dart';
+import 'package:velha_guarda/screens/product_screen.dart';
 
 
 class StrongScreen extends StatelessWidget {
@@ -15,8 +16,7 @@ class StrongScreen extends StatelessWidget {
         leading: new IconButton(
             icon: new Icon(Icons.arrow_back),
             onPressed: () {
-              Navigator.of(context)
-                  .pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen()));
+              Navigator.of(context).pop();
             }
         ),
       ),

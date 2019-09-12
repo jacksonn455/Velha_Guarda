@@ -24,8 +24,7 @@ class PilsenScreenState extends State<PilsenScreen> {
         leading: new IconButton(
             icon: new Icon(Icons.arrow_back),
             onPressed: () {
-              Navigator.of(context)
-                  .pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen()));
+              Navigator.of(context).pop();
             }
         ),
       ),

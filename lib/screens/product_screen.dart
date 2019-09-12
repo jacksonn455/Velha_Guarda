@@ -28,7 +28,7 @@ class ProductScreenState extends State<ProductScreen> {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.transparent,
-                backgroundImage: AssetImage("images/fab_icon.png"),
+                backgroundImage: AssetImage("images/fab_iconii.png"),
               ),
               title: Text(
                 "Strong Ale",
@@ -36,7 +36,7 @@ class ProductScreenState extends State<ProductScreen> {
                 style: TextStyle(fontSize: 13.0),
               ),
               onTap: () {
-                Navigator.of(context).pushReplacement(
+                Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => StrongScreen()));
               },
             ),
@@ -44,7 +44,7 @@ class ProductScreenState extends State<ProductScreen> {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.transparent,
-                backgroundImage: AssetImage("images/fab_icon.png"),
+                backgroundImage: AssetImage("images/fab_iconii.png"),
               ),
               title: Text(
                 "Quadrupel",
@@ -52,7 +52,7 @@ class ProductScreenState extends State<ProductScreen> {
                 style: TextStyle(fontSize: 13.0),
               ),
               onTap: () async {
-                Navigator.of(context).pushReplacement(
+                Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => QuadrupelScreen()));
               },
             ),
@@ -60,7 +60,7 @@ class ProductScreenState extends State<ProductScreen> {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.transparent,
-                backgroundImage: AssetImage("images/fab_icon.png"),
+                backgroundImage: AssetImage("images/fab_iconii.png"),
               ),
               title: Text(
                 "Indian Pale Ale",
@@ -68,7 +68,7 @@ class ProductScreenState extends State<ProductScreen> {
                 style: TextStyle(fontSize: 13.0),
               ),
               onTap: () async {
-                Navigator.of(context).pushReplacement(
+                Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => IpaScreen()));
               },
             ),
@@ -76,7 +76,7 @@ class ProductScreenState extends State<ProductScreen> {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.transparent,
-                backgroundImage: AssetImage("images/fab_icon.png"),
+                backgroundImage: AssetImage("images/fab_iconii.png"),
               ),
               title: Text(
                 "American Pale Ale",
@@ -84,7 +84,7 @@ class ProductScreenState extends State<ProductScreen> {
                 style: TextStyle(fontSize: 13.0),
               ),
               onTap: () async {
-                Navigator.of(context).pushReplacement(
+                Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => ApaScreen()));
               },
             ),
@@ -92,7 +92,7 @@ class ProductScreenState extends State<ProductScreen> {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.transparent,
-                backgroundImage: AssetImage("images/fab_icon.png"),
+                backgroundImage: AssetImage("images/fab_iconii.png"),
               ),
               title: Text(
                 "Pilsen",
@@ -100,7 +100,7 @@ class ProductScreenState extends State<ProductScreen> {
                 style: TextStyle(fontSize: 13.0),
               ),
               onTap: () async {
-                Navigator.of(context).pushReplacement(
+                Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => PilsenScreen()));
               },
             ),

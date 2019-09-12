@@ -44,12 +44,57 @@ class InfoScreenState extends State<InfoScreen> {
               backgroundImage: AssetImage("images/temperature.png"),
             ),
             title: Text(
-              "Temperatura",
+              "Temperatura do freezer",
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: 13.0),
             ),
             onTap: () {
-            Confirmacao(context);
+            freezer(context);
+            },
+          ),
+          Divider(),
+          ListTile(
+            leading: CircleAvatar(
+              backgroundColor: Colors.transparent,
+              backgroundImage: AssetImage("images/temperature.png"),
+            ),
+            title: Text(
+              "Temperatura da geladeira",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: 13.0),
+            ),
+            onTap: () {
+              geladeira(context);
+            },
+          ),
+          Divider(),
+          ListTile(
+            leading: CircleAvatar(
+              backgroundColor: Colors.transparent,
+              backgroundImage: AssetImage("images/wifi.jpg"),
+            ),
+            title: Text(
+              "Rede wifi",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: 13.0),
+            ),
+            onTap: () async {
+
+            },
+          ),
+          Divider(),
+          ListTile(
+            leading: CircleAvatar(
+              backgroundColor: Colors.transparent,
+              backgroundImage: AssetImage("images/wifi3.png"),
+            ),
+            title: Text(
+              "Qualidade do sinal wifi",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: 13.0),
+            ),
+            onTap: () async {
+
             },
           ),
           Divider(),
@@ -58,11 +103,30 @@ class InfoScreenState extends State<InfoScreen> {
     );
   }
 }
-Confirmacao(BuildContext context){
+freezer(BuildContext context){
   Alert(
     context: context,
     type: AlertType.warning,
-    title: "Temperatura de  3º C",
+    title: "Temperatura de  -2,5ºC",
+    buttons: [
+      DialogButton(
+        child: Text(
+          "OK",
+          style: TextStyle(color: Colors.white, fontSize: 20),
+        ),
+        onPressed: () => Navigator.pop(context),
+        color: Colors.orange,
+        width: 120,
+      )
+    ],
+  ).show();
+}
+
+geladeira(BuildContext context){
+  Alert(
+    context: context,
+    type: AlertType.warning,
+    title: "Temperatura de  2ºC",
     buttons: [
       DialogButton(
         child: Text(
