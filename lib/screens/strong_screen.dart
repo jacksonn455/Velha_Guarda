@@ -26,7 +26,7 @@ class StrongScreen extends StatelessWidget {
             aspectRatio: 0.9,
             child: Carousel(
               images: [
-                ExactAssetImage("images/strong1.jpg"),
+                ExactAssetImage("images/10.jpg"),
                 ExactAssetImage("images/strong2.jpg"),
                 ExactAssetImage("images/strong3.png"),
               ],

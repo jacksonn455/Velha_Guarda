@@ -35,7 +35,7 @@ class PilsenScreenState extends State<PilsenScreen> {
             aspectRatio: 0.9,
             child: Carousel(
               images: [
-                ExactAssetImage("images/strong1.jpg"),
+                ExactAssetImage("images/7.jpg"),
                 ExactAssetImage("images/strong2.jpg"),
                 ExactAssetImage("images/strong3.png"),
               ],
