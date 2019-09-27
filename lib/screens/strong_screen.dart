@@ -11,10 +11,10 @@ class StrongScreen extends StatelessWidget {
     return Scaffold(
       appBar: new AppBar(
         backgroundColor: Colors.orange,
-        title: Text('Strong Ale'),
+        title: Text('Strong Ale', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         leading: new IconButton(
-            icon: new Icon(Icons.arrow_back),
+            icon: new Icon(Icons.arrow_back, color: Colors.white),
             onPressed: () {
               Navigator.of(context).pop();
             }

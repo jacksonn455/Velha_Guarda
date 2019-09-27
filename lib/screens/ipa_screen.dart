@@ -19,7 +19,7 @@ class IpaScreenState extends State<IpaScreen> {
     return Scaffold(
       appBar: new AppBar(
         backgroundColor: Colors.orange,
-        title: Text('Indian Pale Ale'),
+        title: Text('Indian Pale Ale', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         leading: new IconButton(
             icon: new Icon(Icons.arrow_back),

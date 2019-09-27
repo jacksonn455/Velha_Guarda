@@ -19,10 +19,10 @@ class PilsenScreenState extends State<PilsenScreen> {
     return Scaffold(
       appBar: new AppBar(
         backgroundColor: Colors.orange,
-        title: Text('Pilsen'),
+        title: Text('Pilsen', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         leading: new IconButton(
-            icon: new Icon(Icons.arrow_back),
+            icon: new Icon(Icons.arrow_back, color: Colors.white),
             onPressed: () {
               Navigator.of(context).pop();
             }

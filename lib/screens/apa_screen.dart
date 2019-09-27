@@ -20,7 +20,7 @@ class ApaScreenState extends State<ApaScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.orange,
-        title: Text('American Pale Ale'),
+        title: Text('American Pale Ale', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         leading: new IconButton(
           icon: new Icon(Icons.arrow_back),

@@ -19,10 +19,10 @@ class QuadrupelScreenState extends State<QuadrupelScreen> {
     return Scaffold(
       appBar: new AppBar(
         backgroundColor: Colors.orange,
-        title: Text('Quadrupel'),
+        title: Text('Quadrupel', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         leading: new IconButton(
-            icon: new Icon(Icons.arrow_back),
+            icon: new Icon(Icons.arrow_back, color: Colors.white),
             onPressed: () {
               Navigator.of(context).pop();
             }

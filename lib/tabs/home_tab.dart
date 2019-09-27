@@ -22,7 +22,7 @@ class HomeTab extends StatelessWidget {
               actions: <Widget>[
                 IconButton(
                   disabledColor: Colors.white,
-                  icon: Icon(Icons.add),
+                  icon: Icon(Icons.add, color: Colors.white),
                   onPressed: () {
                     Navigator.of(context).pushReplacement(
                         MaterialPageRoute(builder: (context) => InfoScreen()));
@@ -30,7 +30,7 @@ class HomeTab extends StatelessWidget {
                 ),
               ],
               flexibleSpace: FlexibleSpaceBar(
-                title: const Text("Novidades"),
+                title: const Text("Novidades", style: TextStyle(color: Colors.white)),
                 centerTitle: true,
               ),
             ),
