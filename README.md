@@ -34,7 +34,7 @@ Tela de Splash
  --------------------
  Tela da seleção de produtos:
  
- ![](https://github.com/jacksonn455/velha_guarda/blob/master/produto.png)
+ ![](https://github.com/jacksonn455/velha_guarda/blob/master/prod.png)
  --------------------
  Tela de informações:
  
