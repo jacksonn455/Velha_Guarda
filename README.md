@@ -40,15 +40,11 @@ Tela de Splash
  
  ![](https://github.com/jacksonn455/velha_guarda/blob/master/aut.png)
  --------------------
-  Tela de informações:
- 
- ![](https://github.com/jacksonn455/velha_guarda/blob/master/aut.png)
- --------------------
    Tela de Temperaturas:
  
  ![](https://github.com/jacksonn455/velha_guarda/blob/master/gel.png)
  --------------------
-   Tela de Temperaturas:
+ Tela de Temperaturas:
  
  ![](https://github.com/jacksonn455/velha_guarda/blob/master/free.png)
  --------------------
