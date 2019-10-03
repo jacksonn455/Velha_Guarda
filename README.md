@@ -38,7 +38,7 @@ Tela de Splash
  --------------------
  Tela de informações:
  
- ![](https://github.com/jacksonn455/velha_guarda/blob/master/info.png)
+ ![](https://github.com/jacksonn455/velha_guarda/blob/master/aut.png)
  --------------------
   Tela de informações:
  
