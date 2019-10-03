@@ -50,5 +50,5 @@ Tela de Splash
  --------------------
  Tela de sobre:
  
- ![](https://github.com/jacksonn455/velha_guard/blob/master/sobre.png)
+ ![](https://github.com/jacksonn455/velha_guarda/blob/master/sobre.png)
  --------------------
