@@ -24,6 +24,14 @@ Tela de Splash
  
  ![](https://github.com/jacksonn455/velha_guarda/blob/master/registro.png)
  --------------------
+  Tela Push Notification:
+ 
+ ![](https://github.com/jacksonn455/velha_guarda/blob/master/push.png)
+ --------------------
+  Tela Push Notification:
+ 
+ ![](https://github.com/jacksonn455/velha_guarda/blob/master/push1.png)
+ --------------------
  Tela Home:
  
  ![](https://github.com/jacksonn455/velha_guarda/blob/master/home.png)
