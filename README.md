@@ -42,23 +42,17 @@ Tela de Splash
  --------------------
   Tela de informações:
  
- ![](https://github.com/jacksonn455/velha_guarda/blob/master/info1.png)
+ ![](https://github.com/jacksonn455/velha_guarda/blob/master/aut.png)
+ --------------------
+   Tela de Temperaturas:
+ 
+ ![](https://github.com/jacksonn455/velha_guarda/blob/master/gel.png)
+ --------------------
+   Tela de Temperaturas:
+ 
+ ![](https://github.com/jacksonn455/velha_guarda/blob/master/free.png)
  --------------------
  Tela de sobre:
  
  ![](https://github.com/jacksonn455/velha_guard/blob/master/sobre.png)
  --------------------
-  Tela da cerveja:
- 
- ![](https://github.com/jacksonn455/velha_guarda/blob/master/cervejas.png)
- --------------------
-  ![](https://github.com/jacksonn455/velha_guarda/blob/master/7.jpg)
- --------------------
-  ![](https://github.com/jacksonn455/velha_guarda/blob/master/8.jpg)
- --------------------
-  ![](https://github.com/jacksonn455/velha_guarda/blob/master/10.jpg)
- --------------------
-  ![](https://github.com/jacksonn455/velha_guarda/blob/master/11.jpg)
- --------------------
-   ![](https://github.com/jacksonn455/velha_guarda/blob/master/12.jpg)
-
